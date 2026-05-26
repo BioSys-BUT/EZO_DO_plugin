@@ -1,0 +1,10 @@
+dataset_name: do_readings
+default_order_by: timestamp
+description: Time series of dissolved oxygen readings from the attached probe.
+display_name: DO readings
+has_experiment: true
+has_unit: true
+source: do_reading
+table: do_readings
+timestamp_columns:
+  - timestamp

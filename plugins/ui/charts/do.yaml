@@ -1,0 +1,11 @@
+---
+data_source: do_readings
+data_source_column: do_reading
+title: DO
+mqtt_topic: do_reading/DO
+chart_key: do_readings
+source: do_readings_plugin
+y_axis_label: DO (mg/L)
+interpolation: stepAfter
+lookback: 100000
+fixed_decimals: 2

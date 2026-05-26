@@ -1,0 +1,13 @@
+---
+display_name: pH tracking
+job_name: ph_reading
+display: true
+source: ph_reading
+description: Continuously measure pH from the attached probe.
+published_settings:
+  - key: pH
+    unit: pH
+    label: pH
+    description: Current pH reading from the probe.
+    type: numeric
+    display: true
