@@ -1,0 +1,13 @@
+---
+display_name: DO tracking
+job_name: do_reading
+display: true
+source: do_reading
+description: Continuously measure dissolved oxygen from the attached probe.
+published_settings:
+  - key: DO
+    unit: mg/L
+    label: DO
+    description: Current dissolved oxygen reading from the probe.
+    type: numeric
+    display: true
